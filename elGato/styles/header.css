@@ -1,0 +1,53 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(253, 181, 229);
+    padding: 25px;
+    display: flex;
+
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .head .logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    left: 8%;
+    bottom: 2%;
+
+}
+
+header .head h1{
+    position: relative;
+    left: 10%;
+    align-items: center;
+    bottom: -8%;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+}
+header .icons .insta a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 1880%;
+}
+
+header .icons .whats{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 950%;
+    
+}
+
